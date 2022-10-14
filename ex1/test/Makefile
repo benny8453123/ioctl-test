@@ -1,0 +1,8 @@
+
+EXECUTABLE_FILENAME=test
+
+all:
+	gcc test.c -o $(EXECUTABLE_FILENAME)
+
+clean:
+	rm $(EXECUTABLE_FILENAME)
