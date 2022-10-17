@@ -52,5 +52,23 @@ ioctl_get_num_val success! arg_get.val = 6
 
 ```
 
-
 # ex2
+all source codes are follow ex2 nothing change or implement by myself
+
+## how to test?
+### Module part
+**get into ex2/ and make first**
+
+1. insmod
+`sudo insmod ioctl-test.ko`
+
+### userspace part
+**get into ex2/test/ and make first**
+
+1. Just execute
+`sudo ./userspace_ioctl`
+```
+ben@ben-OptiPlex-7060:/working/ben/module/ioctl-test/ex2/test$ sudo ./userspace_ioctl
+get_nth_byte message:Message passed by ioctl
+get_msg message:Message passed by ioctl
+```
